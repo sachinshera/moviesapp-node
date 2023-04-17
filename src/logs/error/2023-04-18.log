@@ -1,0 +1,622 @@
+2023-04-18 00:43:24 error: uncaughtException: Cannot read properties of undefined (reading 'sync')
+TypeError: Cannot read properties of undefined (reading 'sync')
+    at App.connectToDatabase (D:\movies app\movieapp-api\src\app.ts:47:18)
+    at new App (D:\movies app\movieapp-api\src\app.ts:26:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-04-18 00:43:52 error: uncaughtException: Cannot read properties of undefined (reading 'sync')
+TypeError: Cannot read properties of undefined (reading 'sync')
+    at App.connectToDatabase (D:\movies app\movieapp-api\src\app.ts:47:18)
+    at new App (D:\movies app\movieapp-api\src\app.ts:26:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-04-18 00:44:57 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at AdminUserModel._initValues (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:164:49)
+    at new Model (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:142:10)
+    at new AdminUserModel (D:\movies app\movieapp-api\src\models\admin.user.model.ts:6:1)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:33:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 00:44:57 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-18 01:27:07 error: [POST] /login >> StatusCode:: 400, Message:: username must be a string, password must be a string
+2023-04-18 01:34:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m9[0m       if(loginResult=="user not found"{
+[7m [0m [91m                                      ~[0m
+
+  [96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m9[0m
+    [7m9[0m       if(loginResult=="user not found"{
+    [7m [0m [96m        ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/controllers/login.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m13[0m       })
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m9[0m       if(loginResult=="user not found"{
+[7m [0m [91m                                      ~[0m
+
+  [96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m9[0m
+    [7m9[0m       if(loginResult=="user not found"{
+    [7m [0m [96m        ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/controllers/login.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m13[0m       })
+[7m  [0m [91m       ~[0m
+
+    at createTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-04-18 01:34:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m9[0m       if(loginResult=="user not found"{
+[7m [0m [91m                                      ~[0m
+
+  [96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m9[0m
+    [7m9[0m       if(loginResult=="user not found"{
+    [7m [0m [96m        ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/controllers/login.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m13[0m       })
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m9[0m       if(loginResult=="user not found"{
+[7m [0m [91m                                      ~[0m
+
+  [96msrc/controllers/login.controller.ts[0m:[93m9[0m:[93m9[0m
+    [7m9[0m       if(loginResult=="user not found"{
+    [7m [0m [96m        ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/controllers/login.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m13[0m       })
+[7m  [0m [91m       ~[0m
+
+    at createTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-04-18 01:37:06 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:40:40 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:42:42 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:42:44 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:44:25 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:44:56 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:47:52 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:47:54 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:47:55 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:50:37 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:50:39 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:50:39 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at login (D:\movies app\movieapp-api\src\controllers\login.controller.ts:24:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 01:57:04 error: [POST] /login/verifytoken >> StatusCode:: 400, Message:: token must be a string
+2023-04-18 02:13:41 error: [POST] /login/refreshtoken >> StatusCode:: 400, Message:: username must be a string
+2023-04-18 02:14:13 error: [POST] /login/verifytoken >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 82
+2023-04-18 02:33:45 error: uncaughtException: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+Error: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+    at Object.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\sql-string.js:66:11)
+    at MySQLQueryGenerator.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-generator.js:1122:22)
+    at MySQLQueryGenerator.attributeToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:386:36)
+    at MySQLQueryGenerator.attributesToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:441:45)
+    at MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:222:38)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 02:35:20 error: uncaughtException: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+Error: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+    at Object.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\sql-string.js:66:11)
+    at MySQLQueryGenerator.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-generator.js:1122:22)
+    at MySQLQueryGenerator.attributeToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:386:36)
+    at MySQLQueryGenerator.attributesToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:441:45)
+    at MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:222:38)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 02:37:32 error: uncaughtException: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+Error: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+    at Object.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\sql-string.js:66:11)
+    at MySQLQueryGenerator.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-generator.js:1122:22)
+    at MySQLQueryGenerator.attributeToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:386:36)
+    at MySQLQueryGenerator.attributesToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:441:45)
+    at MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:222:38)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 02:37:41 error: uncaughtException: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+Error: Invalid value ENUM {
+  values: [ 'default', 'medium', 'high', 'standard', 'maxres' ],
+  options: { values: [Array] }
+}
+    at Object.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\sql-string.js:66:11)
+    at MySQLQueryGenerator.escape (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-generator.js:1122:22)
+    at MySQLQueryGenerator.attributeToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:386:36)
+    at MySQLQueryGenerator.attributesToSQL (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query-generator.js:441:45)
+    at MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:222:38)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 02:59:28 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:00:46 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:8:42)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:01:00 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:8:42)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:01:37 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:07:57 error: [POST] /videos >> StatusCode:: 400, Message:: title must be a string, description must be a string, tags must be a string, status must be a string
+2023-04-18 03:08:23 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:09:23 error: [POST] /videos >> StatusCode:: 400, Message:: title must be a string, description must be a string, tags must be a string, status must be a string
+2023-04-18 03:09:48 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:8:42)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:10:07 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:8:42)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:10:41 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:11:00 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:11:33 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:11:40 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:20)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:12:36 error: uncaughtException: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\movies app\movieapp-api\node_modules\nanoid\index.js from D:\movies app\movieapp-api\src\services\videos.service.ts not supported.
+Instead change the require of index.js in D:\movies app\movieapp-api\src\services\videos.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\services\videos.service.ts:7:18)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:4:26)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:4:29)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:8:49)
+    at m._compile (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\movies app\movieapp-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-04-18 03:16:34 error: [POST] /videos >> StatusCode:: 400, Message:: title must be a string, description must be a string, tags must be a string, status must be a string
+2023-04-18 03:21:29 error: [POST] /videos >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 03:22:46 error: [POST] /videos >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 03:22:48 error: [POST] /videos >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 03:27:55 error: [POST] /videos >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 03:41:20 error: uncaughtException: Duplicate key name 'videos_description'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 03:42:28 error: uncaughtException: Duplicate key name 'videos_description'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 03:46:09 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addVideos (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:19:25)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 03:46:49 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addVideos (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:17:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 03:56:19 error: [POST] /videos/source >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 03:57:23 error: [POST] /videos/source >> StatusCode:: 400, Message:: videos_id must be a string, source must be a string, status must be a string
+2023-04-18 03:57:44 error: [POST] /videos/source >> StatusCode:: 400, Message:: status must be a string
+2023-04-18 03:59:53 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addVideosSource (D:\movies app\movieapp-api\src\controllers\videos.controller.ts:64:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 04:01:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/videos.controller.ts[0m:[93m81[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m81[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/videos.controller.ts[0m:[93m81[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m81[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
