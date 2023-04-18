@@ -1,8 +1,8 @@
 import { ENUM } from 'sequelize';
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
+import { VideosModel } from './videos.model';
 
 export class VideosSourceModel extends Model {}
-
 export default function (sequelize: Sequelize) {
   VideosSourceModel.init(
     {
@@ -48,6 +48,5 @@ export default function (sequelize: Sequelize) {
   );
 
   VideosSourceModel.sync({ alter: true });
-
   return VideosSourceModel;
 }

@@ -620,3 +620,367 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Function.Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-04-18 11:01:24 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:01:24 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:01:24 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:01:24 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:01:24 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:02:53 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:02:53 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:02:53 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:02:53 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:02:53 error: uncaughtException: connect ECONNREFUSED ::1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-18 11:06:41 error: uncaughtException: Cannot find module '@/controllers/videos.controller'
+Require stack:
+- D:\movies app\movieapp-api\src\routes\videos.routes.ts
+- D:\movies app\movieapp-api\src\server.ts
+Error: Cannot find module '@/controllers/videos.controller'
+Require stack:
+- D:\movies app\movieapp-api\src\routes\videos.routes.ts
+- D:\movies app\movieapp-api\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\movies app\movieapp-api\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\movies app\movieapp-api\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\routes\videos.routes.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-04-18 11:11:02 error: uncaughtException: Cannot find module './routes/videos.routes'
+Require stack:
+- D:\movies app\movieapp-api\src\server.ts
+Error: Cannot find module './routes/videos.routes'
+Require stack:
+- D:\movies app\movieapp-api\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\movies app\movieapp-api\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\movies app\movieapp-api\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-04-18 11:11:31 error: uncaughtException: Cannot find module './routes/videos.routes'
+Require stack:
+- D:\movies app\movieapp-api\src\server.ts
+Error: Cannot find module './routes/videos.routes'
+Require stack:
+- D:\movies app\movieapp-api\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\movies app\movieapp-api\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\movies app\movieapp-api\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-04-18 11:31:45 error: uncaughtException: Cannot read properties of undefined (reading 'router')
+TypeError: Cannot read properties of undefined (reading 'router')
+    at VideosRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\videos\videos.routes.ts:18:63)
+    at new VideosRoutes (D:\movies app\movieapp-api\src\routes\videos\videos.routes.ts:13:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:11:59)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-04-18 11:31:50 error: uncaughtException: (0 , videos_source_routes_1.VideosSourceRoutes) is not a function
+TypeError: (0 , videos_source_routes_1.VideosSourceRoutes) is not a function
+    at VideosRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\videos\videos.routes.ts:18:62)
+    at new VideosRoutes (D:\movies app\movieapp-api\src\routes\videos\videos.routes.ts:13:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:11:59)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-04-18 15:33:33 error: [GET] /videos/thumbnails >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 15:38:59 error: uncaughtException: Unexpected token u in JSON at position 0
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at getVideoThumbnails (D:\movies app\movieapp-api\src\controllers\videos\videos.thumbnail.controller.ts:23:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 15:39:51 error: uncaughtException: Unexpected token u in JSON at position 0
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at getVideoThumbnails (D:\movies app\movieapp-api\src\controllers\videos\videos.thumbnail.controller.ts:23:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 15:40:22 error: uncaughtException: Invalid status code: undefined
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\movies app\movieapp-api\node_modules\on-headers\index.js:44:26)
+    at ServerResponse.writeHead (D:\movies app\movieapp-api\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at ServerResponse.end (D:\movies app\movieapp-api\node_modules\compression\index.js:103:14)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at getVideoThumbnails (D:\movies app\movieapp-api\src\controllers\videos\videos.thumbnail.controller.ts:23:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 15:41:07 error: uncaughtException: Invalid status code: undefined
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\movies app\movieapp-api\node_modules\on-headers\index.js:44:26)
+    at ServerResponse.writeHead (D:\movies app\movieapp-api\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at ServerResponse.end (D:\movies app\movieapp-api\node_modules\compression\index.js:103:14)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\movies app\movieapp-api\node_modules\express\lib\response.js:278:15)
+    at getVideoThumbnails (D:\movies app\movieapp-api\src\controllers\videos\videos.thumbnail.controller.ts:23:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-18 15:47:07 error: [GET] /videos/thumbnails/sRUGUDZs3R04z_g0JH3D >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 22:18:08 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: video_id must be a string, thumbnail must be a string, quality must be a string, language must be a string
+2023-04-18 22:18:25 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: thumbnail must be a string, quality must be a string, language must be a string
+2023-04-18 22:18:38 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: quality must be a string, language must be a string
+2023-04-18 22:18:51 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: language must be a string
+2023-04-18 22:22:12 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: thumbnail must be a data uri format
+2023-04-18 22:22:24 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: thumbnail must be a data uri format
+2023-04-18 22:22:50 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: thumbnail must be a data uri format
+2023-04-18 22:23:53 error: [POST] /videos/thumbnails >> StatusCode:: 400, Message:: thumbnail must be an URL address
+2023-04-18 22:24:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/videos/videos.thumbnail.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m   public static async getVideoThumbnails(req: Request, res: Response) {
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/videos/videos.thumbnail.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m23[0m   public static async getVideoThumbnails(req: Request, res: Response) {
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-04-18 22:51:07 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:51:52 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:51:57 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:52:53 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:54:00 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:54:12 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:55:00 error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:55:17 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:55:39 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:57:03 error: uncaughtException: Cannot read properties of undefined (reading 'videoId')
+TypeError: Cannot read properties of undefined (reading 'videoId')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 22:57:48 error: uncaughtException: Cannot add or update a child row: a foreign key constraint fails (`moviesapp`.`#sql-3be8_62d`, CONSTRAINT `#sql-3be8_62d_ibfk_1` FOREIGN KEY (`video_id`) REFERENCES `videos` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-18 23:05:20 error: uncaughtException: Cannot read properties of undefined (reading 'video_id')
+TypeError: Cannot read properties of undefined (reading 'video_id')
+    at new HasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\movies app\movieapp-api\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\movies app\movieapp-api\src\models\videos\videos.model.ts:67:15)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\databases\index.ts:38:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-04-18 23:25:36 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], `language` TEXT[], `genre` TEXT[], `status` ENUM('active', 'inactive') DE...' at line 1
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 23:26:29 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], `language` VARCHAR(20)[], `genre` TEXT[], `status` ENUM('active', 'inacti...' at line 1
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 23:26:59 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[], `status` ENUM('active', 'inactive') DEFAULT 'active', `video_id` VARCHAR(...' at line 1
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-18 23:38:19 error: [POST] /movies >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-18 23:38:29 error: [POST] /movies >> StatusCode:: 400, Message:: title must be a string, description must be a string, release_date must be a string, region must be a string, language must be a string, genre must be a string

@@ -7,12 +7,13 @@ import AdminUserModel from '@/models/admin.user.model';
 import VideosModel from '@/models/videos/videos.model';
 import VideosThumbnailsModel from '@/models/videos/videos.thumnails.model';
 import VideosSourceModel from '@/models/videos/video.souce.model';
+import MoviesModel from '@/models/movies/movies.model';
+import MoviesBannerModel from '@/models/movies/movies.banner.model';
 
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
   host: DB_HOST,
   port: DB_PORT as any,
-  timezone: '+5:30',
   define: {
     charset: 'utf8mb4',
     collate: 'utf8mb4_general_ci',
@@ -39,8 +40,21 @@ const DB = {
   VideosModel: VideosModel(sequelize),
   VideosThumbnailsModel: VideosThumbnailsModel(sequelize),
   VideosSourceModel: VideosSourceModel(sequelize),
+  MoviesModel: MoviesModel(sequelize),
+  MoviesBannerModel: MoviesBannerModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
+
+// set associations
+DB.VideosModel.hasMany(DB.VideosSourceModel, {
+  as: 'sources',
+  foreignKey: 'video_id',
+});
+
+DB.VideosModel.hasMany(DB.VideosThumbnailsModel, {
+  as: 'thumbnails',
+  foreignKey: 'video_id',
+});
 
 export default DB;

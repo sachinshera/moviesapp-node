@@ -1,5 +1,6 @@
 import { ENUM } from 'sequelize';
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
+import { VideosSourceModel } from './video.souce.model';
 
 export class VideosModel extends Model {}
 

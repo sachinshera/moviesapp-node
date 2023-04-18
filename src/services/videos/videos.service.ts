@@ -2,10 +2,20 @@ import { VideosSourceModel } from '@/models/videos/video.souce.model';
 import { VideosModel } from '@/models/videos/videos.model';
 import { VideosThumbnailsModel } from '@/models/videos/videos.thumnails.model';
 import { nanoid } from 'nanoid';
-nanoid;
 export class VideosService {
   public static async getVideos() {
-    return await VideosModel.findAll();
+    return await VideosModel.findAll({
+      include: [
+        {
+          model: VideosSourceModel,
+          as: 'sources',
+        },
+        {
+          model: VideosThumbnailsModel,
+          as: 'thumbnails',
+        },
+      ],
+    });
   }
   //   add videos
 
@@ -142,25 +152,6 @@ export class VideosService {
 
   //   update videos source
 
-  public static async updateVideosSource(id: string, data: any) {
-    const videosSource = await VideosSourceModel.update(
-      {
-        videoId: data.videoId,
-        source: data.source,
-        type: data.type ? data.type : 'video',
-        status: data.status ? data.status : 'active',
-        quality: data.quality ? data.quality : '720p',
-        language: data.language ? data.language : 'en',
-      },
-      {
-        where: {
-          id: id,
-        },
-      },
-    );
-    return videosSource;
-  }
-
   //   update videos thumbnails
 
   public static async updateVideosThumbnails(id: string, data: any) {
@@ -197,20 +188,6 @@ export class VideosService {
   }
 
   //   change status videos source
-
-  public static async changeStatusVideosSource(id: string, data: any) {
-    const videosSource = await VideosSourceModel.update(
-      {
-        status: data.status,
-      },
-      {
-        where: {
-          id: id,
-        },
-      },
-    );
-    return videosSource;
-  }
 
   //   change status videos thumbnails
 

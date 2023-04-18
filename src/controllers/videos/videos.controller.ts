@@ -1,4 +1,4 @@
-import { VideosService } from '@/services/videos.service';
+import { VideosService } from '@/services/videos/videos.service';
 import { Request, Response } from 'express';
 export class VideosController {
   // add videos

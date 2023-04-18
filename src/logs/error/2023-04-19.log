@@ -1,0 +1,92 @@
+2023-04-19 02:18:54 error: [POST] /movies >> StatusCode:: 400, Message:: property video_id should not exist
+2023-04-19 02:21:53 error: [POST] /movies >> StatusCode:: 400, Message:: property release_date should not exist, property region should not exist, property language should not exist, property genre should not exist
+2023-04-19 02:48:51 error: [POST] /movies/banner >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-19 02:49:01 error: [POST] /movies/banner >> StatusCode:: 400, Message:: title must be a string, description must be a string, video_id must be a string
+2023-04-19 02:50:30 error: [POST] /movies/banner >> StatusCode:: 400, Message:: title must be a string, description must be a string, video_id must be a string
+2023-04-19 02:52:32 error: [POST] /movies/banner >> StatusCode:: 400, Message:: movie_id must be a string, banner_image must be an URL address
+2023-04-19 02:52:52 error: [POST] /movies/banner >> StatusCode:: 400, Message:: banner_image must be an URL address
+2023-04-19 03:01:40 error: uncaughtException: movies_controller_1.MoviesController is not a constructor
+TypeError: movies_controller_1.MoviesController is not a constructor
+    at new MoviesRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.routes.ts:9:29)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:23:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\src\bin.ts:649:14)
+2023-04-19 03:01:48 error: uncaughtException: movies_controller_1.MoviesController is not a constructor
+TypeError: movies_controller_1.MoviesController is not a constructor
+    at new MoviesRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.routes.ts:9:29)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:23:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\src\bin.ts:649:14)
+2023-04-19 03:02:24 error: uncaughtException: movies_banner_controller_1.default is not a constructor
+TypeError: movies_banner_controller_1.default is not a constructor
+    at new MoviesBannerRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:8:35)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:24:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (D:\movies app\movieapp-api\node_modules\ts-node\src\bin.ts:649:14)
+2023-04-19 03:10:40 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\index.js:521:19)
+    at MoviesBannerRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:14:17)
+    at new MoviesBannerRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:10:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:24:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-04-19 03:11:08 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\index.js:521:19)
+    at MoviesBannerRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:14:17)
+    at new MoviesBannerRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:10:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:24:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-04-19 03:11:17 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\movies app\movieapp-api\node_modules\express\lib\router\index.js:521:19)
+    at MoviesBannerRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:14:17)
+    at new MoviesBannerRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:10:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:24:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-04-19 03:14:43 error: uncaughtException: Cannot read properties of undefined (reading 'getAllMovieBanners')
+TypeError: Cannot read properties of undefined (reading 'getAllMovieBanners')
+    at MoviesBannerRoutes.initializeRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:14:60)
+    at new MoviesBannerRoutes (D:\movies app\movieapp-api\src\routes\movies\movies.banner.routes.ts:10:10)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:24:3)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-04-19 03:20:36 error: [DELETE] /movies/banner/0WDVqEbIZOqGBvZ95xMo5 >> StatusCode:: 401, Message:: Wrong authentication token

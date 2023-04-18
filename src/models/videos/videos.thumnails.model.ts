@@ -20,11 +20,11 @@ export default function (sequelize: Sequelize) {
         type: DataTypes.STRING(255),
       },
       status: {
-        allowNull: false,
+        allowNull: true,
         type: ENUM('active', 'inactive', 'deleted'),
       },
       quality: {
-        allowNull: false,
+        allowNull: true,
         type: ENUM('default', 'medium', 'high', 'standard', 'maxres'),
         defaultValue: 'default',
       },
