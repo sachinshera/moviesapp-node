@@ -12,6 +12,8 @@ import MoviesBannerModel from '@/models/movies/movies.banner.model';
 import SeriesModel from '@/models/series/series.model';
 import SeriesSeasonsModel from '@/models/series/series.seasons.model';
 import SeriesSeasonVideosModel from '@/models/series/series.season.videos.model';
+import CategoryModel from '@/models/category.model';
+import GenresModel from '@/models/genres.model';
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
   host: DB_HOST,
@@ -47,6 +49,8 @@ const DB = {
   SeriesSeasonsModel: SeriesSeasonsModel(sequelize),
   SeriesSeasonVideosModel: SeriesSeasonVideosModel(sequelize),
   SeriesModel: SeriesModel(sequelize),
+  CategoryModel: CategoryModel(sequelize),
+  GenresModel: GenresModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };

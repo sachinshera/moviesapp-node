@@ -1,0 +1,50 @@
+2023-04-20 02:14:47 error: [GET] /category >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-20 02:15:42 error: [POST] /category >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-20 02:15:55 error: [POST] /category >> StatusCode:: 400, Message:: name must be a string
+2023-04-20 02:16:12 error: uncaughtException: Validation error
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at async CategoryModel.save (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:4153:35)
+    at async Function.createCategory (D:\movies app\movieapp-api\src\services\category.service.ts:9:5)
+    at async createCategory (D:\movies app\movieapp-api\src\controllers\category.controller.ts:7:22)
+2023-04-20 02:17:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/category.controller.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m12[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/category.controller.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m12[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-04-20 02:22:31 error: uncaughtException: notNull Violation: CategoryModel.name cannot be null
+SequelizeValidationError: notNull Violation: CategoryModel.name cannot be null
+    at InstanceValidator._validate (D:\movies app\movieapp-api\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (D:\movies app\movieapp-api\node_modules\sequelize\src\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\movies app\movieapp-api\node_modules\sequelize\src\instance-validator.js:93:12)
+    at async CategoryModel.save (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:4076:7)
+    at async Function.updateCategory (D:\movies app\movieapp-api\src\services\category.service.ts:27:7)
+    at async updateCategory (D:\movies app\movieapp-api\src\controllers\category.controller.ts:34:22)
+2023-04-20 02:23:38 error: uncaughtException: SequelizeValidationError: notNull Violation: CategoryModel.name cannot be null
+Error: SequelizeValidationError: notNull Violation: CategoryModel.name cannot be null
+    at Function.updateCategory (D:\movies app\movieapp-api\src\services\category.service.ts:33:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateCategory (D:\movies app\movieapp-api\src\controllers\category.controller.ts:34:22)
+2023-04-20 02:38:02 error: [POST] /genres >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-20 02:38:15 error: [POST] /genres >> StatusCode:: 400, Message:: name must be a string

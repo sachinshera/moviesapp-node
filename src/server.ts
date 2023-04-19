@@ -12,7 +12,8 @@ import MoviesBannerRoutes from './routes/movies/movies.banner.routes';
 import SeriesRoutes from './routes/series/series.routes';
 import SeriesSeasonRoutes from './routes/series/series.season.routes';
 import SeriesSeasonVideoRoutes from './routes/series/series.season.video.routes';
-
+import CategoryRoutes from './routes/category.routes';
+import GenresRoutes from './routes/genres.routes';
 validateEnv();
 
 const app = new App([
@@ -28,5 +29,7 @@ const app = new App([
   new SeriesSeasonVideoRoutes(),
   new SeriesSeasonRoutes(),
   new SeriesRoutes(),
+  new CategoryRoutes(),
+  new GenresRoutes(),
 ]);
 app.listen();
