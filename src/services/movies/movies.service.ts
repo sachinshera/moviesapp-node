@@ -1,6 +1,10 @@
+import { MoviesBannerModel } from '@/models/movies/movies.banner.model';
 import { MoviesModel } from '@/models/movies/movies.model';
-import { nanoid } from 'nanoid';
+import { VideosSourceModel } from '@/models/videos/video.souce.model';
+import { VideosModel } from '@/models/videos/videos.model';
+import { VideosThumbnailsModel } from '@/models/videos/videos.thumnails.model';
 
+import { nanoid } from 'nanoid';
 export default class MoviesService {
   // add new movie
   public static async addMovie(movie: any) {
@@ -34,7 +38,29 @@ export default class MoviesService {
   // get all movies
   public static async getAllMovies() {
     try {
-      const movies = await MoviesModel.findAll();
+      const movies = await MoviesModel.findAll({
+        order: [['createdAt', 'DESC']],
+        include: [
+          {
+            model: MoviesBannerModel,
+            as: 'banners',
+          },
+          {
+            model: VideosModel,
+            as: 'videos',
+            include: [
+              {
+                model: VideosSourceModel,
+                as: 'sources',
+              },
+              {
+                model: VideosThumbnailsModel,
+                as: 'thumbnails',
+              },
+            ],
+          },
+        ],
+      });
       if (movies) {
         return movies;
       } else {
@@ -52,6 +78,26 @@ export default class MoviesService {
         where: {
           id,
         },
+        include: [
+          {
+            model: MoviesBannerModel,
+            as: 'banners',
+          },
+          {
+            model: VideosModel,
+            as: 'videos',
+            include: [
+              {
+                model: VideosSourceModel,
+                as: 'sources',
+              },
+              {
+                model: VideosThumbnailsModel,
+                as: 'thumbnails',
+              },
+            ],
+          },
+        ],
       });
       if (movie) {
         return movie;

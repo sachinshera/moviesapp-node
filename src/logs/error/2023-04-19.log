@@ -90,3 +90,119 @@ TypeError: Cannot read properties of undefined (reading 'getAllMovieBanners')
     at Function.Module._load (node:internal/modules/cjs/loader:958:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
 2023-04-19 03:20:36 error: [DELETE] /movies/banner/0WDVqEbIZOqGBvZ95xMo5 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-19 15:27:31 error: uncaughtException: Key column 'seriesId' doesn't exist in table
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-19 15:27:48 error: uncaughtException: Key column 'seriesId' doesn't exist in table
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-19 15:28:01 error: uncaughtException: Key column 'seriesId' doesn't exist in table
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-19 15:47:23 error: [POST] /series >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-19 15:47:32 error: [POST] /series >> StatusCode:: 400, Message:: name must be a string, description must be a string
+2023-04-19 15:48:52 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addSeries (D:\movies app\movieapp-api\src\controllers\series\series.controller.ts:16:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 15:53:45 error: uncaughtException: Can't create table `moviesapp`.`series_seasons` (errno: 150 "Foreign key constraint is incorrectly formed")
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-19 15:54:48 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addSeries (D:\movies app\movieapp-api\src\controllers\series\series.controller.ts:16:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 15:57:08 error: uncaughtException: Can't create table `moviesapp`.`series_seasons` (errno: 150 "Foreign key constraint is incorrectly formed")
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-19 15:57:08 error: uncaughtException: Can't create table `moviesapp`.`series_seasons` (errno: 150 "Foreign key constraint is incorrectly formed")
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-19 15:57:53 error: uncaughtException: Can't create table `moviesapp`.`series_seasons` (errno: 150 "Foreign key constraint is incorrectly formed")
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-19 15:59:46 error: uncaughtException: Can't create table `moviesapp`.`series_seasons` (errno: 150 "Foreign key constraint is incorrectly formed")
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-19 16:23:00 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-19 16:23:10 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season >> StatusCode:: 400, Message:: season must be a string, description must be a string
+2023-04-19 16:27:06 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addSeason (D:\movies app\movieapp-api\src\controllers\series\series.season.controller.ts:23:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 16:29:05 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addSeason (D:\movies app\movieapp-api\src\controllers\series\series.season.controller.ts:23:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 16:30:03 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addSeason (D:\movies app\movieapp-api\src\controllers\series\series.season.controller.ts:23:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 17:03:31 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-19 17:03:43 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 400, Message:: season must be a string, description must be a string
+2023-04-19 17:04:19 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 400, Message:: season must be a string, description must be a string
+2023-04-19 17:04:47 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 400, Message:: season must be a string, description must be a string
+2023-04-19 17:06:33 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 400, Message:: video_id must be a string
+2023-04-19 17:06:49 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/YgTmxBfuF3bYhhudO5poe/video >> StatusCode:: 400, Message:: property viedo_id should not exist, video_id must be a string
+2023-04-19 17:07:16 error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\movies app\movieapp-api\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\movies app\movieapp-api\node_modules\express\lib\response.js:174:12)
+    at addVideoToSeason (D:\movies app\movieapp-api\src\controllers\series\series.season.video.controller.ts:24:25)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-04-19 17:18:39 error: [POST] /series/uPHK2pFhL1SfjhJfMTkko/season/tW-Nyb4jhLo2mlgXPIybV/video >> StatusCode:: 400, Message:: property video should not exist, video_id must be a string

@@ -9,7 +9,9 @@ import VideosThumbnailsModel from '@/models/videos/videos.thumnails.model';
 import VideosSourceModel from '@/models/videos/video.souce.model';
 import MoviesModel from '@/models/movies/movies.model';
 import MoviesBannerModel from '@/models/movies/movies.banner.model';
-
+import SeriesModel from '@/models/series/series.model';
+import SeriesSeasonsModel from '@/models/series/series.seasons.model';
+import SeriesSeasonVideosModel from '@/models/series/series.season.videos.model';
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
   host: DB_HOST,
@@ -42,11 +44,16 @@ const DB = {
   VideosSourceModel: VideosSourceModel(sequelize),
   MoviesModel: MoviesModel(sequelize),
   MoviesBannerModel: MoviesBannerModel(sequelize),
+  SeriesSeasonsModel: SeriesSeasonsModel(sequelize),
+  SeriesSeasonVideosModel: SeriesSeasonVideosModel(sequelize),
+  SeriesModel: SeriesModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
 
-// set associations
+// set associations after all models are define
+
+// set associations video , video source, video thumbnails
 DB.VideosModel.hasMany(DB.VideosSourceModel, {
   as: 'sources',
   foreignKey: 'video_id',
@@ -55,6 +62,36 @@ DB.VideosModel.hasMany(DB.VideosSourceModel, {
 DB.VideosModel.hasMany(DB.VideosThumbnailsModel, {
   as: 'thumbnails',
   foreignKey: 'video_id',
+});
+
+// set associations movies , movies banner , video
+DB.MoviesModel.hasMany(DB.MoviesBannerModel, {
+  as: 'banners',
+  foreignKey: 'movie_id',
+});
+
+DB.MoviesModel.hasMany(DB.VideosModel, {
+  as: 'videos',
+  foreignKey: 'id',
+  sourceKey: 'video_id',
+});
+
+// set associations series , series seasons , series season videos
+
+DB.SeriesModel.hasMany(DB.SeriesSeasonsModel, {
+  as: 'seasons',
+  foreignKey: 'series_id',
+});
+
+DB.SeriesSeasonsModel.hasMany(DB.SeriesSeasonVideosModel, {
+  as: 'videos',
+  foreignKey: 'season_id',
+});
+//SeriesSeasonVideosModel and VideosModel are same table
+DB.SeriesSeasonVideosModel.hasMany(DB.VideosModel, {
+  as: 'videoDetail',
+  foreignKey: 'id',
+  sourceKey: 'video',
 });
 
 export default DB;
