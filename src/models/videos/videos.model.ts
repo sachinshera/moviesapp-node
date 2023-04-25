@@ -14,21 +14,19 @@ export default function (sequelize: Sequelize) {
       },
       title: {
         allowNull: false,
-        type: DataTypes.STRING(45),
+        type: DataTypes.TEXT('long'),
       },
       description: {
         allowNull: false,
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT('long'),
       },
       tags: {
         allowNull: false,
         type: DataTypes.STRING(255),
-        unique: false,
       },
       status: {
         allowNull: false,
         type: ENUM('active', 'inactive', 'deleted'),
-        unique: false,
       },
       views: {
         allowNull: false,
@@ -46,20 +44,6 @@ export default function (sequelize: Sequelize) {
       sequelize,
       createdAt: false,
       updatedAt: false,
-      indexes: [
-        {
-          unique: false,
-          fields: ['title'],
-        },
-        {
-          unique: false,
-          fields: ['tags'],
-        },
-        {
-          unique: false,
-          fields: ['description'],
-        },
-      ],
     },
   );
 

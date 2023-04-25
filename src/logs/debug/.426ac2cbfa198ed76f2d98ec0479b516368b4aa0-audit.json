@@ -24,6 +24,16 @@
             "date": 1681937020773,
             "name": "D:\\movies app\\movieapp-api\\src\\logs\\debug\\2023-04-20.log",
             "hash": "60d523be2143179b1891cdc2773f0c555d9d9d53df95a7cda26119fe02e6ce60"
+        },
+        {
+            "date": 1682353354631,
+            "name": "D:\\movies app\\movieapp-api\\src\\logs\\debug\\2023-04-24.log",
+            "hash": "fd7491cd305d380ecc03316162514457ad122cc04e0d31d87d0aebbace5d311e"
+        },
+        {
+            "date": 1682366350305,
+            "name": "D:\\movies app\\movieapp-api\\src\\logs\\debug\\2023-04-25.log",
+            "hash": "3e74f3ac53e148d0fc4fcd98a899bf6918420963844a7765dad608895f93e385"
         }
     ],
     "hashType": "sha256"

@@ -10,11 +10,11 @@ export default function (sequelize: Sequelize) {
         type: DataTypes.STRING(255),
       },
       title: {
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT('long'),
         allowNull: false,
       },
       description: {
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT('long'),
         allowNull: true,
       },
       release_date: {
@@ -22,7 +22,7 @@ export default function (sequelize: Sequelize) {
         allowNull: true,
       },
       rating: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.FLOAT,
         allowNull: true,
       },
       region: {

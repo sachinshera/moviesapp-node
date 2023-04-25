@@ -17,7 +17,7 @@ export default function (sequelize: Sequelize) {
       },
       source: {
         allowNull: false,
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT('long'),
       },
       type: {
         allowNull: true,

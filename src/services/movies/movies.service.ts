@@ -1,9 +1,9 @@
 import { MoviesBannerModel } from '@/models/movies/movies.banner.model';
 import { MoviesModel } from '@/models/movies/movies.model';
+import { TrailerModel } from '@/models/trailer/trailer.model';
 import { VideosSourceModel } from '@/models/videos/video.souce.model';
 import { VideosModel } from '@/models/videos/videos.model';
 import { VideosThumbnailsModel } from '@/models/videos/videos.thumnails.model';
-
 import { nanoid } from 'nanoid';
 export default class MoviesService {
   // add new movie
@@ -59,6 +59,9 @@ export default class MoviesService {
               },
             ],
           },
+          {
+            association: 'trailers',
+          },
         ],
       });
       if (movies) {
@@ -96,6 +99,10 @@ export default class MoviesService {
                 as: 'thumbnails',
               },
             ],
+          },
+          {
+            association: 'trailers',
+            as: 'trailers',
           },
         ],
       });

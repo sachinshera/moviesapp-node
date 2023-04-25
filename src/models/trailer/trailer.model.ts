@@ -1,36 +1,32 @@
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
 
-export class SeriesModel extends Model {
+export class TrailerModel extends Model {
   public id!: number;
-  public name!: string;
-  public description!: string;
-  public image!: string;
-  public trailer!: string;
+  public movies_series_id!: string;
+  public url!: string;
+  public quality!: string;
   public status!: boolean;
 }
 
 export default function (sequelize: Sequelize) {
-  SeriesModel.init(
+  TrailerModel.init(
     {
       id: {
         primaryKey: true,
         type: DataTypes.STRING(45),
       },
-      name: {
+      movies_series_id: {
         allowNull: false,
-        type: DataTypes.STRING(255),
+        type: DataTypes.STRING(45),
       },
-      description: {
-        allowNull: false,
-        type: DataTypes.TEXT('long'),
-      },
-      image: {
+      url: {
         allowNull: true,
         type: DataTypes.TEXT('long'),
       },
-      trailer: {
+      quality: {
         allowNull: true,
-        type: DataTypes.TEXT('long'),
+        type: DataTypes.ENUM('SD', 'HD', '2K', '4K', 'auto'),
+        defaultValue: 'auto',
       },
       status: {
         allowNull: true,
@@ -38,12 +34,12 @@ export default function (sequelize: Sequelize) {
       },
     },
     {
-      tableName: 'series',
+      tableName: 'trailers',
       sequelize,
       createdAt: true,
       updatedAt: true,
     },
   );
 
-  return SeriesModel;
+  return TrailerModel;
 }

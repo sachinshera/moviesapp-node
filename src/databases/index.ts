@@ -14,6 +14,7 @@ import SeriesSeasonsModel from '@/models/series/series.seasons.model';
 import SeriesSeasonVideosModel from '@/models/series/series.season.videos.model';
 import CategoryModel from '@/models/category.model';
 import GenresModel from '@/models/genres.model';
+import TrailerModel from '@/models/trailer/trailer.model';
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
   host: DB_HOST,
@@ -51,9 +52,13 @@ const DB = {
   SeriesModel: SeriesModel(sequelize),
   CategoryModel: CategoryModel(sequelize),
   GenresModel: GenresModel(sequelize),
+  TrailerModel: TrailerModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
+
+logger.info('Database connected');
+// set associations after all models are define
 
 // set associations after all models are define
 
@@ -74,12 +79,6 @@ DB.MoviesModel.hasMany(DB.MoviesBannerModel, {
   foreignKey: 'movie_id',
 });
 
-DB.MoviesModel.hasMany(DB.VideosModel, {
-  as: 'videos',
-  foreignKey: 'id',
-  sourceKey: 'video_id',
-});
-
 // set associations series , series seasons , series season videos
 
 DB.SeriesModel.hasMany(DB.SeriesSeasonsModel, {
@@ -88,14 +87,30 @@ DB.SeriesModel.hasMany(DB.SeriesSeasonsModel, {
 });
 
 DB.SeriesSeasonsModel.hasMany(DB.SeriesSeasonVideosModel, {
-  as: 'videos',
+  as: 'episodes',
   foreignKey: 'season_id',
 });
 //SeriesSeasonVideosModel and VideosModel are same table
 DB.SeriesSeasonVideosModel.hasMany(DB.VideosModel, {
-  as: 'videoDetail',
+  as: 'episodesDetails',
   foreignKey: 'id',
   sourceKey: 'video',
+});
+
+DB.MoviesModel.hasMany(DB.VideosModel, {
+  as: 'videos',
+  foreignKey: 'id',
+  sourceKey: 'video_id',
+});
+
+DB.MoviesModel.hasMany(DB.TrailerModel, {
+  as: 'trailers',
+  foreignKey: 'movies_series_id',
+});
+
+DB.SeriesModel.hasMany(DB.TrailerModel, {
+  as: 'trailers',
+  foreignKey: 'movies_series_id',
 });
 
 export default DB;

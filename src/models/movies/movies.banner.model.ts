@@ -14,7 +14,7 @@ export default function (sequelize: Sequelize) {
         allowNull: false,
       },
       banner_image: {
-        type: DataTypes.TEXT,
+        type: DataTypes.TEXT('long'),
         allowNull: false,
       },
       status: {

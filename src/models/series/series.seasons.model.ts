@@ -48,12 +48,6 @@ export default function (sequelize: Sequelize) {
       sequelize,
       createdAt: true,
       updatedAt: true,
-      indexes: [
-        {
-          unique: false,
-          fields: ['season'],
-        },
-      ],
     },
   );
 

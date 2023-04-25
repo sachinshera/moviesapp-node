@@ -14,6 +14,7 @@ import SeriesSeasonRoutes from './routes/series/series.season.routes';
 import SeriesSeasonVideoRoutes from './routes/series/series.season.video.routes';
 import CategoryRoutes from './routes/category.routes';
 import GenresRoutes from './routes/genres.routes';
+import TrailerRoutes from './routes/trailer/trailer.routes';
 validateEnv();
 
 const app = new App([
@@ -31,5 +32,6 @@ const app = new App([
   new SeriesRoutes(),
   new CategoryRoutes(),
   new GenresRoutes(),
+  new TrailerRoutes(),
 ]);
 app.listen();

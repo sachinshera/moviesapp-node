@@ -37,10 +37,10 @@ export class SeriesService {
           association: 'seasons',
           include: [
             {
-              association: 'videos',
+              association: 'episodes',
               include: [
                 {
-                  association: 'videoDetail',
+                  association: 'episodesDetails',
                   include: [
                     {
                       association: 'sources',
@@ -53,6 +53,9 @@ export class SeriesService {
               ],
             },
           ],
+        },
+        {
+          association: 'trailers',
         },
       ],
     });
@@ -70,10 +73,10 @@ export class SeriesService {
           association: 'seasons',
           include: [
             {
-              association: 'videos',
+              association: 'episodes',
               include: [
                 {
-                  association: 'videoDetail',
+                  association: 'episodesDetails',
                   include: [
                     {
                       association: 'sources',
@@ -86,6 +89,9 @@ export class SeriesService {
               ],
             },
           ],
+        },
+        {
+          association: 'trailers',
         },
       ],
     });
