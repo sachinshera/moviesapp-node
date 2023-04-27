@@ -5,7 +5,7 @@ import validationMiddleware from '@/middlewares/validation.middleware';
 import { Router } from 'express';
 class SeriesSeasonRoutes {
   public router = Router();
-  public path = '/series/:seriesId/season';
+  public path = '/seriesseason/:seriesId/season';
   constructor() {
     this.initializeRoutes();
   }

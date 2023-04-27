@@ -1,7 +1,7 @@
 import { IsString, IsOptional } from 'class-validator';
 export class addSeriesSeasonDto {
   @IsString()
-  public video_id: string;
+  public season: string;
   @IsString()
   public description: string;
   @IsOptional()
