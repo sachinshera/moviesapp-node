@@ -16,10 +16,10 @@ class SeriesRoutes {
     this.router.post(`${this.path}`, authMiddleware, validationMiddleware(addSeriesDto, 'body'), SeriesController.addSeries);
 
     // get all series
-    this.router.get(`${this.path}`, authMiddleware, SeriesController.getAllSeries);
+    this.router.get(`${this.path}`, SeriesController.getAllSeries);
 
     // get series by id
-    this.router.get(`${this.path}/:id`, authMiddleware, SeriesController.getSeriesById);
+    this.router.get(`${this.path}/:id`, SeriesController.getSeriesById);
 
     // update series by id
 

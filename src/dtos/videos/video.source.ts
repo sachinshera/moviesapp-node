@@ -1,4 +1,4 @@
-import { IsString, IsUrl } from 'class-validator';
+import { IsString, IsUrl ,IsOptional} from 'class-validator';
 export class addVideosSourceDto {
   @IsString()
   public videos_id: string;
@@ -6,4 +6,9 @@ export class addVideosSourceDto {
   public source: string;
   @IsString()
   public status: string;
+  @IsOptional()
+  public quality: string;
+
+  @IsOptional()
+  public type: string;
 }

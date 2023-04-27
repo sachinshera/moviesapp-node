@@ -25,17 +25,21 @@ export class VideosSoureService {
     if (checkExist) {
       return 'videos source already exist';
     }
-    const videosSource = await VideosSourceModel.create({
-      id: nanoid(),
-      videoId: data.videos_id,
-      source: data.source,
-      type: data.type ? data.type : 'video',
-      status: data.status ? data.status : 'active',
-      quality: data.quality ? data.quality : '720p',
-      language: data.language ? data.language : 'en',
-    });
-    console.log(videosSource);
-    return videosSource;
+    try {
+      const videosSource = await VideosSourceModel.create({
+        id: nanoid(),
+        videoId: data.videos_id,
+        source: data.source,
+        type: data.type ? data.type : 'video',
+        status: data.status ? data.status : 'active',
+        quality: data.quality ? data.quality : '720p',
+        language: data.language ? data.language : 'en',
+      });
+      return videosSource;
+    } catch (error) {
+      throw new Error(error);
+      console.log(error);
+    }
   }
 
   public static async updateVideosSource(id: string, data: any) {
