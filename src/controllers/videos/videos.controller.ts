@@ -5,7 +5,7 @@ export class VideosController {
 
   public static async addVideos(req: Request, res: Response) {
     try {
-      let addVideos = await VideosService.addVideos(req.body);
+      const addVideos = await VideosService.addVideos(req.body);
 
       if (addVideos == 'videos already exist') {
         res.status(400).json({
@@ -20,7 +20,7 @@ export class VideosController {
   //   get all videos
   public static async getAllVideos(req: Request, res: Response) {
     try {
-      let getAllVideos = await VideosService.getVideos();
+      const getAllVideos = await VideosService.getVideos();
       res.send(getAllVideos);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -30,7 +30,7 @@ export class VideosController {
   //   get videos by id
   public static async getVideosById(req: Request, res: Response) {
     try {
-      let getVideosById = await VideosService.getVideosById(req.params.id);
+      const getVideosById = await VideosService.getVideosById(req.params.id);
       res.send(getVideosById);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -40,7 +40,7 @@ export class VideosController {
   //   delete videos by id
   public static async deleteVideosById(req: Request, res: Response) {
     try {
-      let deleteVideosById = await VideosService.deleteVideos(req.params.id);
+      const deleteVideosById = await VideosService.deleteVideos(req.params.id);
       res.status(200).json({
         message: 'videos deleted successfully',
       });
@@ -53,7 +53,7 @@ export class VideosController {
 
   public static async addVideosSource(req: Request, res: Response) {
     try {
-      let addVideosSource = await VideosService.addVideosSource(req.body);
+      const addVideosSource = await VideosService.addVideosSource(req.body);
       if (addVideosSource == 'invalid video id') {
         res.status(400).json({
           message: 'invalid video id',
@@ -74,7 +74,7 @@ export class VideosController {
 
   public static async getVideosSourceById(req: Request, res: Response) {
     try {
-      let getVideosSourceById = await VideosService.getVideosSourceByVideoId(req.params.id);
+      const getVideosSourceById = await VideosService.getVideosSourceByVideoId(req.params.id);
       res.send(getVideosSourceById);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -85,7 +85,7 @@ export class VideosController {
 
   public static async getSourceById(req: Request, res: Response) {
     try {
-      let getSourceById = await VideosService.getSourceById(req.params.id);
+      const getSourceById = await VideosService.getSourceById(req.params.id);
       res.send(getSourceById);
     } catch (err) {
       res.status(500).send('Internal Server Error');

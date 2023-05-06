@@ -1,5 +1,5 @@
 import CategoryController from '@/controllers/category.controller';
-import { categoryDto } from '@/dtos/category.dto';
+import { categoryDto, addCateAssoc } from '@/dtos/category.dto';
 import authMiddleware from '@/middlewares/auth.middleware';
 import validationMiddleware from '@/middlewares/validation.middleware';
 import { Router } from 'express';
@@ -12,6 +12,11 @@ class CategoryRoutes {
   }
 
   private initializeRoutes() {
+    this.router.post(`${this.path}/Assoc`, authMiddleware, validationMiddleware(addCateAssoc, 'body'), CategoryController.AddAssoc);
+
+    this.router.put(`${this.path}/Assoc`, authMiddleware, validationMiddleware(addCateAssoc, 'body'), CategoryController.AddAssoc);
+
+    this.router.get(`${this.path}/Assoc`, CategoryController.getAllAssoc);
     //    add category
     this.router.post(`${this.path}`, authMiddleware, validationMiddleware(categoryDto, 'body'), CategoryController.createCategory);
 

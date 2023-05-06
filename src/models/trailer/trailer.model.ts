@@ -12,6 +12,7 @@ export default function (sequelize: Sequelize) {
   TrailerModel.init(
     {
       id: {
+        unique: true,
         primaryKey: true,
         type: DataTypes.STRING(45),
       },

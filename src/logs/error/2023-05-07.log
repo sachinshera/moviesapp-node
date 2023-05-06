@@ -1,0 +1,129 @@
+2023-05-07 00:02:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/category.controller.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m13[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/category.controller.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m13[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:863:19)
+    at D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-07 00:11:44 error: [POST] /category/addAssoc >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-07 00:11:53 error: uncaughtException: notNull Violation: CategoryAssocModel.series_movie_id cannot be null,
+notNull Violation: CategoryAssocModel.type cannot be null
+SequelizeValidationError: notNull Violation: CategoryAssocModel.series_movie_id cannot be null,
+notNull Violation: CategoryAssocModel.type cannot be null
+    at InstanceValidator._validate (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:93:12)
+    at async CategoryAssocModel.save (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:4076:7)
+    at async Function.create (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:2305:12)
+2023-05-07 00:13:49 error: [POST] /category/addAssoc >> StatusCode:: 400, Message:: property sdfsdf should not exist
+2023-05-07 00:14:12 error: uncaughtException: notNull Violation: CategoryAssocModel.type cannot be null
+SequelizeValidationError: notNull Violation: CategoryAssocModel.type cannot be null
+    at InstanceValidator._validate (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\watch+\moviesapp-node\node_modules\sequelize\src\instance-validator.js:93:12)
+    at async CategoryAssocModel.save (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:4076:7)
+    at async Function.create (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:2305:12)
+2023-05-07 00:15:10 error: [POST] /category/addAssoc >> StatusCode:: 400, Message:: type must be a string
+2023-05-07 00:20:46 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 00:22:35 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 00:23:54 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 00:24:54 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 00:55:52 error: uncaughtException: await is only valid in async functions and the top level bodies of modules
+D:\watch+\moviesapp-node\src\services\category\category.assoc.service.ts:21
+        return await category_assoc_model_1.CategoryAssocModel.findAll();
+               ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+2023-05-07 01:03:05 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 01:06:17 error: uncaughtException: Cannot read properties of null (reading '1')
+TypeError: Cannot read properties of null (reading '1')
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:151:75)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:16
+    at async PostgresQueryInterface.showIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-07 01:13:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/category/category.assoc.service.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m35[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/category/category.assoc.service.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m35[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:863:19)
+    at D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)

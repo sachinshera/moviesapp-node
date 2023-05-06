@@ -1,0 +1,769 @@
+2023-05-06 15:28:30 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at listOnTimeout (node:internal/timers:538:9)
+    at processTimers (node:internal/timers:512:7)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+2023-05-06 15:28:30 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+2023-05-06 15:29:31 error: uncaughtException: Cannot read properties of undefined (reading 'schemas')
+TypeError: Cannot read properties of undefined (reading 'schemas')
+    at organize (D:\watch+\moviesapp-node\node_modules\swagger-jsdoc\src\specification.js:157:32)
+    at build (D:\watch+\moviesapp-node\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (D:\watch+\moviesapp-node\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at App.initializeSwagger (D:\watch+\moviesapp-node\src\app.ts:78:31)
+    at new App (D:\watch+\moviesapp-node\src\app.ts:29:10)
+    at Object.<anonymous> (D:\watch+\moviesapp-node\src\server.ts:20:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+2023-05-06 16:36:15 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 16:36:42 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 16:36:43 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 16:49:33 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 17:13:26 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 17:13:39 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 17:22:52 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.removeConstraint (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query-interface.js:86:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1402:17)
+2023-05-06 17:23:38 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 17:37:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/search/search.service.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m16[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/search/search.service.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m16[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:863:19)
+    at D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-06 18:02:21 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 18:03:14 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 18:10:06 error: uncaughtException: Deadlock found when trying to get lock; try restarting transaction
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1408:11)
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:16:00 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:19 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:17:43 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:18:56 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:14 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:20:53 error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-05-06 20:23:29 error: uncaughtException: relation "series_season_videos" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:23:29 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 20:23:29 error: uncaughtException: there is no unique constraint matching given keys for referenced table "series_season_videos"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:27:28 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:27:28 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:27:28 error: uncaughtException: relation "series_season_videos" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:27:28 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 20:27:28 error: uncaughtException: there is no unique constraint matching given keys for referenced table "series_season_videos"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:28:25 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:28:25 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:28:25 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 20:28:57 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:28:57 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:28:57 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 20:30:10 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:30:10 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:30:10 error: uncaughtException: relation "description" already exists
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 20:30:42 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:30:42 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:31:44 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:31:44 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:32:49 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:32:50 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:33:39 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:33:39 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:33:48 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:33:49 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:34:45 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:34:45 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:35:04 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:35:05 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:35:49 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:35:49 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:37:32 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:37:32 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:37:55 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:37:55 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:38:20 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:38:20 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:39:08 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-06 20:39:08 error: uncaughtException: there is no unique constraint matching given keys for referenced table "movies"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-06 20:50:27 error: [POST] /movies >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-06 23:54:59 error: uncaughtException: Cannot find module '@/services/category.service'
+Require stack:
+- D:\watch+\moviesapp-node\src\controllers\category.controller.ts
+- D:\watch+\moviesapp-node\src\routes\category.routes.ts
+- D:\watch+\moviesapp-node\src\server.ts
+Error: Cannot find module '@/services/category.service'
+Require stack:
+- D:\watch+\moviesapp-node\src\controllers\category.controller.ts
+- D:\watch+\moviesapp-node\src\routes\category.routes.ts
+- D:\watch+\moviesapp-node\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\watch+\moviesapp-node\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\watch+\moviesapp-node\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\watch+\moviesapp-node\src\controllers\category.controller.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-05-06 23:55:15 error: uncaughtException: Cannot find module '@/services/category.service'
+Require stack:
+- D:\watch+\moviesapp-node\src\controllers\category.controller.ts
+- D:\watch+\moviesapp-node\src\routes\category.routes.ts
+- D:\watch+\moviesapp-node\src\server.ts
+Error: Cannot find module '@/services/category.service'
+Require stack:
+- D:\watch+\moviesapp-node\src\controllers\category.controller.ts
+- D:\watch+\moviesapp-node\src\routes\category.routes.ts
+- D:\watch+\moviesapp-node\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\watch+\moviesapp-node\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\watch+\moviesapp-node\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\watch+\moviesapp-node\src\controllers\category.controller.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-05-06 23:56:32 error: uncaughtException: column "name" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+2023-05-06 23:56:32 error: uncaughtException: column "name" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.addIndex (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)

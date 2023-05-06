@@ -6,6 +6,7 @@ export default function (sequelize: Sequelize) {
   MoviesBannerModel.init(
     {
       id: {
+        unique: true,
         primaryKey: true,
         type: DataTypes.STRING(255),
       },
@@ -30,6 +31,10 @@ export default function (sequelize: Sequelize) {
       updatedAt: true,
     },
   );
+
+  MoviesBannerModel.sync({
+    alter: true,
+  });
 
   return MoviesBannerModel;
 }

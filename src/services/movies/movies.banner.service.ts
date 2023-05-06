@@ -1,5 +1,4 @@
 import { MoviesBannerModel } from '@/models/movies/movies.banner.model';
-import { MoviesModel } from '@/models/movies/movies.model';
 import { nanoid } from 'nanoid';
 
 export default class MoviesBannerService {

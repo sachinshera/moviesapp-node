@@ -41,5 +41,9 @@ export default function (sequelize: Sequelize) {
     },
   );
 
+  SeriesSeasonVideosModel.sync({
+    alter: true,
+  });
+
   return SeriesSeasonVideosModel;
 }

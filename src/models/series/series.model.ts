@@ -13,6 +13,7 @@ export default function (sequelize: Sequelize) {
   SeriesModel.init(
     {
       id: {
+        unique: true,
         primaryKey: true,
         type: DataTypes.STRING(45),
       },
@@ -22,7 +23,7 @@ export default function (sequelize: Sequelize) {
       },
       description: {
         allowNull: false,
-        type: DataTypes.TEXT('long'),
+        type: DataTypes.STRING(500),
       },
       image: {
         allowNull: true,
@@ -42,8 +43,26 @@ export default function (sequelize: Sequelize) {
       sequelize,
       createdAt: true,
       updatedAt: true,
+      indexes: [
+        {
+          name: 'series_name',
+          unique: true,
+          fields: ['name'],
+          type: 'FULLTEXT',
+        },
+        {
+          name: 'series_description',
+          unique: true,
+          type: 'FULLTEXT',
+          fields: ['description'],
+        },
+      ],
     },
   );
+
+  SeriesModel.sync({
+    alter: true,
+  });
 
   return SeriesModel;
 }

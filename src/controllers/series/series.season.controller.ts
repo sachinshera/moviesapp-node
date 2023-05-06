@@ -5,8 +5,8 @@ export class SeriesSeasonController {
   // add new season
   public static async addSeason(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let addSeason = await SeriesSeasonService.addSeason(seriesId, req.body);
+      const seriesId = req.params.seriesId;
+      const addSeason = await SeriesSeasonService.addSeason(seriesId, req.body);
       return res.status(200).json(addSeason);
     } catch (err) {
       console.log(err);
@@ -29,8 +29,8 @@ export class SeriesSeasonController {
 
   public static async getAllSeasons(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let getAllSeasons = await SeriesSeasonService.getAllSeasons(seriesId);
+      const seriesId = req.params.seriesId;
+      const getAllSeasons = await SeriesSeasonService.getAllSeasons(seriesId);
       res.send(getAllSeasons);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -41,9 +41,9 @@ export class SeriesSeasonController {
 
   public static async getSeasonById(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let getSeasonById = await SeriesSeasonService.getSeasonById(seriesId, seasonId);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const getSeasonById = await SeriesSeasonService.getSeasonById(seriesId, seasonId);
       res.send(getSeasonById);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -53,9 +53,9 @@ export class SeriesSeasonController {
   //   update season by id
   public static async updateSeasonById(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let updateSeasonById = await SeriesSeasonService.updateSeason(seriesId, seasonId, req.body);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const updateSeasonById = await SeriesSeasonService.updateSeason(seriesId, seasonId, req.body);
       res.send(updateSeasonById);
     } catch (err) {
       console.log(err);
@@ -73,9 +73,9 @@ export class SeriesSeasonController {
 
   public static async deleteSeasonById(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let deleteSeasonById = await SeriesSeasonService.deleteSeason(seriesId, seasonId);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const deleteSeasonById = await SeriesSeasonService.deleteSeason(seriesId, seasonId);
       res.status(200).json({
         message: 'Season deleted successfully',
       });

@@ -3,10 +3,10 @@ import { TokenService } from '@/services/token.service';
 import { Request, Response } from 'express';
 export class LoginController {
   public static async login(req: Request, res: Response) {
-    let username = req.body.username;
-    let password = req.body.password;
+    const username = req.body.username;
+    const password = req.body.password;
     try {
-      let loginResult = await LoginServie.login(username, password);
+      const loginResult = await LoginServie.login(username, password);
       if (loginResult == 'user not found') {
         return res.status(404).json({
           message: 'INVALID CREDENTIALS',
@@ -32,9 +32,9 @@ export class LoginController {
   // verifytoken
 
   public static async verifyToken(req: Request, res: Response) {
-    let token = req.body.token;
+    const token = req.body.token;
     try {
-      let verifyToken = await TokenService.verifyToken(token);
+      const verifyToken = await TokenService.verifyToken(token);
       if (verifyToken) {
         return res.status(200).json({
           message: 'TOKEN VERIFIED',
@@ -54,14 +54,14 @@ export class LoginController {
   // refresh token
 
   public static async refreshToken(req: Request, res: Response) {
-    let token = req.body.token;
-    let userame = req.body.username;
+    const token = req.body.token;
+    const userame = req.body.username;
     try {
-      let verifyToken = await TokenService.verifyToken(token);
+      const verifyToken = await TokenService.verifyToken(token);
       // delete privous tokens
       await TokenService.removeAllTokensByUserId(userame);
       if (verifyToken) {
-        let newToken = await TokenService.gererateToken(userame);
+        const newToken = await TokenService.gererateToken(userame);
         if (!newToken) {
           console.log('64', newToken);
           return res.status(500).json({

@@ -22,7 +22,7 @@ export class VideosThumbnailsController {
 
   public static async getVideoThumbnails(req: Request, res: Response) {
     try {
-      let videoId = req.params.videoId;
+      const videoId = req.params.videoId;
       const videoThumbnails = await VideosThumbnailsService.getVideoThumbnails(videoId);
       res.status(200).json(videoThumbnails);
     } catch (error) {
@@ -37,7 +37,7 @@ export class VideosThumbnailsController {
   //   delete video thumbnail by id
   public static async deleteVideoThumbnail(req: Request, res: Response) {
     try {
-      let id = req.params.id;
+      const id = req.params.id;
       const videoThumbnail = await VideosThumbnailsService.deleteVideoThumbnailById(id);
       res.status(200).json(videoThumbnail);
     } catch (error) {
@@ -52,7 +52,7 @@ export class VideosThumbnailsController {
   //   update thumbail by id
   public static async updateVideoThumbnail(req: Request, res: Response) {
     try {
-      let id = req.params.id;
+      const id = req.params.id;
       const videoThumbnail = await VideosThumbnailsService.updateVideoThumbnailById(id, req.body);
       res.status(200).json(videoThumbnail);
     } catch (error) {

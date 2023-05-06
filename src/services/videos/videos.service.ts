@@ -52,7 +52,7 @@ export class VideosService {
 
   public static async addVideosSource(data: any) {
     // check video is valid or not
-    let checkVideo = await VideosModel.findOne({
+    const checkVideo = await VideosModel.findOne({
       where: {
         id: data.videos_id,
       },
@@ -62,7 +62,7 @@ export class VideosService {
     }
 
     // check videos source is already exist
-    let checkExist = await VideosSourceModel.findOne({
+    const checkExist = await VideosSourceModel.findOne({
       where: {
         video_id: data.videos_id,
         source: data.source,

@@ -5,9 +5,9 @@ export class SeriesSeasonVideoController {
   // add new video to season
   public static async addVideoToSeason(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let addVideoToSeason = await SeriesSeasonVideoService.addVideoToSeason(seriesId, seasonId, req.body);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const addVideoToSeason = await SeriesSeasonVideoService.addVideoToSeason(seriesId, seasonId, req.body);
       return res.status(200).json(addVideoToSeason);
     } catch (err) {
       console.log(err);
@@ -29,9 +29,9 @@ export class SeriesSeasonVideoController {
   //get all videos in season
   public static async getAllVideosInSeason(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let getAllVideosInSeason = await SeriesSeasonVideoService.getAllVideosInSeason(seriesId, seasonId);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const getAllVideosInSeason = await SeriesSeasonVideoService.getAllVideosInSeason(seriesId, seasonId);
       res.send(getAllVideosInSeason);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -41,10 +41,10 @@ export class SeriesSeasonVideoController {
   //   update
   public static async updateVideoInSeason(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let videoId = req.params.videoId;
-      let updateVideoInSeason = await SeriesSeasonVideoService.updateVideoInSeason(seriesId, seasonId, videoId, req.body);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const videoId = req.params.videoId;
+      const updateVideoInSeason = await SeriesSeasonVideoService.updateVideoInSeason(seriesId, seasonId, videoId, req.body);
       res.send(updateVideoInSeason);
     } catch (err) {
       res.status(500).send('Internal Server Error');
@@ -54,10 +54,10 @@ export class SeriesSeasonVideoController {
   //   delete
   public static async deleteVideoInSeason(req: Request, res: Response) {
     try {
-      let seriesId = req.params.seriesId;
-      let seasonId = req.params.seasonId;
-      let videoId = req.params.videoId;
-      let deleteVideoInSeason = await SeriesSeasonVideoService.deleteVideoFromSeason(seriesId, seasonId, videoId);
+      const seriesId = req.params.seriesId;
+      const seasonId = req.params.seasonId;
+      const videoId = req.params.videoId;
+      const deleteVideoInSeason = await SeriesSeasonVideoService.deleteVideoFromSeason(seriesId, seasonId, videoId);
       res.send(deleteVideoInSeason);
     } catch (err) {
       res.status(500).send('Internal Server Error');

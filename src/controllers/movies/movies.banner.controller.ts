@@ -48,8 +48,8 @@ export default class MoviesBannerController {
   // update movie banner
   public async updateMovieBanner(req: Request, res: Response) {
     try {
-      let data = req.body as any;
-      let id = req.params.id;
+      const data = req.body as any;
+      const id = req.params.id;
       data.id = id;
       const movieBanner = await MoviesBannerService.updateMovieBanner(data);
       res.status(200).json(movieBanner);

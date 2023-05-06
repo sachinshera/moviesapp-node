@@ -1,7 +1,44 @@
-import CategoryService from '@/services/category.service';
+import CategoryAssocService from '@/services/category/category.assoc.service';
+import CategoryService from '@/services/category/category.service';
 import { Request, Response } from 'express';
-
 export default class CategoryController {
+  // add assoc
+
+  static async AddAssoc(req: Request, res: Response) {
+    let data = req.body;
+    if (data.type != 'movie' && data.type != 'series') {
+      return res.status(400).json({
+        message: 'invalid type!',
+      });
+    }
+    try {
+      let add = await CategoryAssocService.AddAssoc(data);
+      res.status(200).json(add);
+    } catch (e) {
+      console.log('err', e);
+
+      res.status(500).json({
+        message: e.toString(),
+      });
+    }
+  }
+
+  static async getAllAssoc(req: Request, res: Response) {
+    let get = await CategoryAssocService.getAll();
+    res.status(200).json(get);
+  }
+
+  static async updateAssoc(req: Request, res: Response) {
+    let body = req.body;
+    try {
+      let update = await CategoryAssocService.update(body);
+      res.status(200).json(update);
+    } catch (error) {
+      res.status(500).json({
+        message: error.toString(),
+      });
+    }
+  }
   static async createCategory(req: Request, res: Response) {
     try {
       const { name } = req.body;

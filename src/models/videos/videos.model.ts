@@ -8,6 +8,7 @@ export default function (sequelize: Sequelize) {
   VideosModel.init(
     {
       id: {
+        unique: true,
         allowNull: false,
         primaryKey: true,
         type: DataTypes.STRING(45),

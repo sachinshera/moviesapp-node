@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\watch+\\moviesapp-node\\src\\logs\\error\\.6969fc443d412e5712588d2ed36c36331461968f-audit.json",
+    "files": [
+        {
+            "date": 1683366722851,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\error\\2023-05-06.log",
+            "hash": "c16daac3502a696a02c8417c6d13024461e4753caeb2d5216e523de522f606e7"
+        },
+        {
+            "date": 1683397818260,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\error\\2023-05-07.log",
+            "hash": "f33870043b23dfdfbdbc79b281e9a37a5926a072bb4540d6e7c12cf9d6337e79"
+        }
+    ],
+    "hashType": "sha256"
+}

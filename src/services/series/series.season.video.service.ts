@@ -7,7 +7,7 @@ export default class SeriesSeasonVideoService {
   public static async addVideoToSeason(seriesId: string, seasonId: string, video: SeriesSeasonVideosModel) {
     try {
       // check if season exists
-      let season = await SeriesSeasonsModel.findOne({
+      const season = await SeriesSeasonsModel.findOne({
         where: {
           id: seasonId,
           series_id: seriesId,
@@ -20,7 +20,7 @@ export default class SeriesSeasonVideoService {
 
       // check if video already exists
 
-      let videoExists = await SeriesSeasonVideosModel.findOne({
+      const videoExists = await SeriesSeasonVideosModel.findOne({
         where: {
           season_id: seasonId,
           video: video.video,
@@ -34,7 +34,7 @@ export default class SeriesSeasonVideoService {
 
       // add video to season
 
-      let addVideo = await SeriesSeasonVideosModel.create({
+      const addVideo = await SeriesSeasonVideosModel.create({
         id: nanoid(),
         series_id: seriesId,
         season_id: seasonId,
@@ -50,7 +50,7 @@ export default class SeriesSeasonVideoService {
   //   get all videos in season
   public static async getAllVideosInSeason(seriesId: string, seasonId: string) {
     // check if season exists
-    let season = await SeriesSeasonsModel.findOne({
+    const season = await SeriesSeasonsModel.findOne({
       where: {
         id: seasonId,
         series_id: seriesId,
@@ -62,7 +62,7 @@ export default class SeriesSeasonVideoService {
     }
 
     // get all videos in season
-    let videos = await SeriesSeasonVideosModel.findAll({
+    const videos = await SeriesSeasonVideosModel.findAll({
       where: {
         series_id: seriesId,
         season_id: seasonId,
@@ -76,7 +76,7 @@ export default class SeriesSeasonVideoService {
   public static async updateVideoInSeason(seriesId: string, seasonId: string, videoId: string, video: SeriesSeasonVideosModel) {
     try {
       // check if season exists
-      let season = await SeriesSeasonsModel.findOne({
+      const season = await SeriesSeasonsModel.findOne({
         where: {
           id: seasonId,
           series_id: seriesId,
@@ -88,7 +88,7 @@ export default class SeriesSeasonVideoService {
       }
 
       // check if video exists
-      let videoExists = await SeriesSeasonVideosModel.findOne({
+      const videoExists = await SeriesSeasonVideosModel.findOne({
         where: {
           id: videoId,
           series_id: seriesId,
@@ -101,7 +101,7 @@ export default class SeriesSeasonVideoService {
       }
 
       // update video
-      let updateVideo = await SeriesSeasonVideosModel.update(
+      const updateVideo = await SeriesSeasonVideosModel.update(
         {
           ...video,
         },
@@ -115,7 +115,7 @@ export default class SeriesSeasonVideoService {
       );
 
       //   return updated video
-      let updatedVideo = await SeriesSeasonVideosModel.findOne({
+      const updatedVideo = await SeriesSeasonVideosModel.findOne({
         where: {
           id: videoId,
           series_id: seriesId,
@@ -133,7 +133,7 @@ export default class SeriesSeasonVideoService {
   public static async deleteVideoFromSeason(seriesId: string, seasonId: string, videoId: string) {
     try {
       // check if season exists
-      let season = await SeriesSeasonsModel.findOne({
+      const season = await SeriesSeasonsModel.findOne({
         where: {
           id: seasonId,
           series_id: seriesId,
@@ -145,7 +145,7 @@ export default class SeriesSeasonVideoService {
       }
 
       // check if video exists
-      let videoExists = await SeriesSeasonVideosModel.findOne({
+      const videoExists = await SeriesSeasonVideosModel.findOne({
         where: {
           id: videoId,
           series_id: seriesId,
@@ -158,7 +158,7 @@ export default class SeriesSeasonVideoService {
       }
 
       // delete video
-      let deleteVideo = await SeriesSeasonVideosModel.destroy({
+      const deleteVideo = await SeriesSeasonVideosModel.destroy({
         where: {
           id: videoId,
           series_id: seriesId,

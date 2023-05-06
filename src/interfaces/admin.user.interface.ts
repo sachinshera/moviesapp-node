@@ -1,6 +1,5 @@
 export interface AdmiUserInterface {
-    id: number;
-    username: string;
-    password: string;
-  }
-  
+  id: number;
+  username: string;
+  password: string;
+}
