@@ -12,4 +12,6 @@ export class addCateAssoc {
   public type: string;
   @IsOptional()
   public status: boolean;
+  @IsString()
+  public categoryId: string;
 }

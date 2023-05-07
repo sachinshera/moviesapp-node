@@ -11,11 +11,15 @@ export default function (sequelize: Sequelize) {
   CategoryAssocModel.init(
     {
       id: {
-        type: DataTypes.STRING(40),
-        unique: true,
+        type: DataTypes.STRING(100),
         primaryKey: true,
       },
       series_movie_id: {
+        type: DataTypes.STRING(40),
+        unique: false,
+        allowNull: false,
+      },
+      categoryId: {
         type: DataTypes.STRING(40),
         unique: false,
         allowNull: false,
@@ -24,6 +28,7 @@ export default function (sequelize: Sequelize) {
       status: {
         type: DataTypes.BOOLEAN,
         defaultValue: true,
+        allowNull: true,
       },
       type: {
         type: DataTypes.STRING(30),
@@ -40,4 +45,6 @@ export default function (sequelize: Sequelize) {
   CategoryAssocModel.sync({
     alter: true,
   });
+
+  return CategoryAssocModel;
 }

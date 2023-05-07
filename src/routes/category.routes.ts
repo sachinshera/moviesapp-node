@@ -14,9 +14,12 @@ class CategoryRoutes {
   private initializeRoutes() {
     this.router.post(`${this.path}/Assoc`, authMiddleware, validationMiddleware(addCateAssoc, 'body'), CategoryController.AddAssoc);
 
-    this.router.put(`${this.path}/Assoc`, authMiddleware, validationMiddleware(addCateAssoc, 'body'), CategoryController.AddAssoc);
+    this.router.put(`${this.path}/Assoc`, authMiddleware, validationMiddleware(addCateAssoc, 'body'), CategoryController.updateAssoc);
 
     this.router.get(`${this.path}/Assoc`, CategoryController.getAllAssoc);
+
+    // delete assoc
+    this.router.delete(`${this.path}/Assoc/:id`, authMiddleware, CategoryController.deleteAssoc);
     //    add category
     this.router.post(`${this.path}`, authMiddleware, validationMiddleware(categoryDto, 'body'), CategoryController.createCategory);
 

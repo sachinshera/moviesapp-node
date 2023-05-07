@@ -28,6 +28,20 @@ export default class CategoryController {
     res.status(200).json(get);
   }
 
+  static async deleteAssoc(req: Request, res: Response) {
+    let id = req.params.id;
+    try {
+      let del = await CategoryAssocService.delete(id);
+      res.status(200).json({
+        message: 'deleted',
+      });
+    } catch (error) {
+      res.status(500).json({
+        message: error.toString(),
+      });
+    }
+  }
+
   static async updateAssoc(req: Request, res: Response) {
     let body = req.body;
     try {
@@ -80,12 +94,12 @@ export default class CategoryController {
     }
   }
   static async deleteCategory(req: Request, res: Response) {
-    const { id } = req.params;
-    const isDeleted = await CategoryService.deleteCategory(id);
-    if (isDeleted) {
+    try {
+      const { id } = req.params;
+      await CategoryService.deleteCategory(id);
       res.status(200).json({ message: 'Category deleted' });
-    } else {
-      res.status(404).json({ message: 'Category not found' });
+    } catch (err) {
+      res.status(500).json({ message: 'Something went wrong' });
     }
   }
 }

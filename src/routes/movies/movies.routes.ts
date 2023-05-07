@@ -22,6 +22,13 @@ class MoviesRoutes {
     this.router.put(`${this.path}/:id`, authMiddleware, validationMiddleware(addMoviesDto, 'body', true), this.moviesController.updateMovie);
     // delete movie
     this.router.delete(`${this.path}/:id`, authMiddleware, this.moviesController.deleteMovie);
+
+    // get movies by genre id
+    this.router.get(`${this.path}/genre/:id`, this.moviesController.getMoviesByGenresId);
+
+    // get movies by category id
+
+    this.router.get(`${this.path}/category/:id`, this.moviesController.getMoviesByCategoryId);
   }
 }
 

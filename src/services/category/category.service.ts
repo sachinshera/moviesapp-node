@@ -35,11 +35,11 @@ export default class CategoryService {
     }
   }
   static async deleteCategory(id: string): Promise<boolean> {
-    const category = await CategoryModel.findOne({ where: { id } });
-    if (category) {
-      await category.destroy();
+    try {
+      await CategoryModel.destroy({ where: { id } });
       return true;
+    } catch (err) {
+      throw new Error(err);
     }
-    return false;
   }
 }

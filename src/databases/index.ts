@@ -13,9 +13,10 @@ import SeriesModel from '@/models/series/series.model';
 import SeriesSeasonsModel from '@/models/series/series.seasons.model';
 import SeriesSeasonVideosModel from '@/models/series/series.season.videos.model';
 import CategoryModel from '@/models/category/category.model';
-import GenresModel from '@/models/genres.model';
+import GenresModel from '@/models/genres/genres.model';
 import TrailerModel from '@/models/trailer/trailer.model';
 import CategoryAssocModel from '@/models/category/category.assoc.model';
+import GenresAssocModel from '@/models/genres/genres.assoc.model';
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'postgres',
   host: DB_HOST,
@@ -55,6 +56,7 @@ const DB = {
   GenresModel: GenresModel(sequelize),
   TrailerModel: TrailerModel(sequelize),
   CategoryAssocModel: CategoryAssocModel(sequelize),
+  GenresAssocModel: GenresAssocModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
@@ -112,4 +114,43 @@ DB.SeriesSeasonVideosModel.hasMany(DB.VideosModel, {
   sourceKey: 'video',
 });
 
+DB.GenresAssocModel.hasOne(DB.GenresModel, {
+  as: 'genresDetails',
+  foreignKey: 'id',
+  sourceKey: 'genreId',
+});
+
+DB.GenresAssocModel.hasOne(DB.MoviesModel, {
+  as: 'moviesDetails',
+  foreignKey: 'id',
+  sourceKey: 'movies_series_id',
+});
+
+DB.GenresAssocModel.hasOne(DB.SeriesModel, {
+  as: 'seriesDetails',
+  foreignKey: 'id',
+  sourceKey: 'movies_series_id',
+});
+
+// category model and assoc model
+
+DB.CategoryAssocModel.hasOne(DB.CategoryModel, {
+  as: 'categoryDetails',
+  foreignKey: 'id',
+  sourceKey: 'categoryId',
+});
+
+DB.CategoryAssocModel.hasOne(DB.MoviesModel, {
+  as: 'moviesDetails',
+  sourceKey: 'series_movie_id',
+  foreignKey: 'id',
+  foreignKeyConstraint: false,
+});
+
+// @ts-ignore
+DB.CategoryAssocModel.hasOne(DB.SeriesModel, {
+  as: 'seriesDetails',
+  sourceKey: 'series_movie_id',
+  foreignKey: 'id',
+});
 export default DB;

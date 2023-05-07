@@ -1,6 +1,7 @@
+import CategoryAssocService from '@/services/category/category.assoc.service';
+import GenresAssocService from '@/services/genres/genres.assoc.service';
 import { SeriesService } from '@/services/series/series.service';
 import { Request, Response } from 'express';
-
 export class SeriesController {
   // add series
   public static async addSeries(req: Request, res: Response) {
@@ -62,6 +63,29 @@ export class SeriesController {
         message: 'series deleted successfully',
       });
     } catch (err) {
+      res.status(500).send('Internal Server Error');
+    }
+  }
+
+  // get series by genre id
+  public static async getSeriesByGenreId(req: Request, res: Response) {
+    try {
+      const getSeriesByGenreId = await GenresAssocService.getSeriesByGenreId(req.params.id);
+      res.send(getSeriesByGenreId);
+    } catch (err) {
+      res.status(500).send('Internal Server Error');
+    }
+  }
+
+  // get series by category id
+
+  public static async getSeriesByCategoryId(req: Request, res: Response) {
+    try {
+      const getSeriesByCategoryId = await CategoryAssocService.getSeriesByCategoryId(req.params.id);
+      res.send(getSeriesByCategoryId);
+    } catch (err) {
+      console.log('err', err);
+
       res.status(500).send('Internal Server Error');
     }
   }
