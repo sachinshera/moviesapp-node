@@ -11,11 +11,11 @@ export default function (sequelize: Sequelize) {
         type: DataTypes.STRING(255),
       },
       title: {
-        type: DataTypes.STRING(255),
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       description: {
-        type: DataTypes.STRING(500),
+        type: DataTypes.TEXT,
         allowNull: true,
       },
       release_date: {
@@ -45,7 +45,7 @@ export default function (sequelize: Sequelize) {
       video_id: {
         type: DataTypes.STRING(255),
         allowNull: true,
-        unique: true,
+        unique: false,
       },
     },
     {
