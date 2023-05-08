@@ -22,10 +22,8 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   port: DB_PORT as any,
   define: {
-    charset: 'utf8mb4',
-    collate: 'utf8mb4_general_ci',
     underscored: true,
-    freezeTableName: true,
+    freezeTableName: false,
   },
   pool: {
     min: 0,
@@ -36,6 +34,10 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
     logger.info(time + 'ms' + ' ' + query);
   },
   benchmark: true,
+  set: {
+    FOREIGN_KEY_CHECKS: 0,
+    constraints: false,
+  },
 });
 
 sequelize.authenticate();
@@ -48,10 +50,10 @@ const DB = {
   VideosThumbnailsModel: VideosThumbnailsModel(sequelize),
   VideosSourceModel: VideosSourceModel(sequelize),
   MoviesModel: MoviesModel(sequelize),
+  SeriesModel: SeriesModel(sequelize),
   SeriesSeasonVideosModel: SeriesSeasonVideosModel(sequelize),
   MoviesBannerModel: MoviesBannerModel(sequelize),
   SeriesSeasonsModel: SeriesSeasonsModel(sequelize),
-  SeriesModel: SeriesModel(sequelize),
   CategoryModel: CategoryModel(sequelize),
   GenresModel: GenresModel(sequelize),
   TrailerModel: TrailerModel(sequelize),
@@ -66,91 +68,108 @@ logger.info('Database connected');
 DB.VideosModel.hasMany(DB.VideosSourceModel, {
   as: 'sources',
   foreignKey: 'video_id',
+  constraints: false,
 });
-
+// @ts-ignore
 DB.VideosModel.hasMany(DB.VideosThumbnailsModel, {
   as: 'thumbnails',
   foreignKey: 'video_id',
+  constraints: false,
 });
 
 // set associations series , series seasons , series season videos
-
+// @ts-ignore
 DB.SeriesModel.hasMany(DB.SeriesSeasonsModel, {
   as: 'seasons',
   foreignKey: 'series_id',
+  constraints: false,
 });
-
+// @ts-ignore
 DB.SeriesSeasonsModel.hasMany(DB.SeriesSeasonVideosModel, {
   as: 'episodes',
   foreignKey: 'season_id',
+  constraints: false,
 });
-
+// @ts-ignore
 DB.MoviesModel.hasMany(DB.VideosModel, {
   as: 'videos',
   foreignKey: 'id',
   sourceKey: 'video_id',
+  constraints: false,
 });
-
+// @ts-ignore
 DB.MoviesModel.hasMany(DB.TrailerModel, {
   as: 'trailers',
   foreignKey: 'movies_series_id',
+  constraints: false,
 });
-
+// @ts-ignore
 DB.SeriesModel.hasMany(DB.TrailerModel, {
   as: 'trailers',
   foreignKey: 'movies_series_id',
+  constraints: false,
 });
-
+// @ts-ignore
 // set associations movies , movies banner , video
 DB.MoviesModel.hasMany(DB.MoviesBannerModel, {
   as: 'banners',
   foreignKey: 'movie_id',
+  constraints: false,
 });
-
+// @ts-ignore
 //SeriesSeasonVideosModel and VideosModel are same table
 DB.SeriesSeasonVideosModel.hasMany(DB.VideosModel, {
   as: 'episodesDetails',
   foreignKey: 'id',
   sourceKey: 'video',
+  constraints: false,
 });
-
-DB.GenresAssocModel.hasOne(DB.GenresModel, {
+// @ts-ignore
+DB.GenresAssocModel.hasMany(DB.GenresModel, {
   as: 'genresDetails',
   foreignKey: 'id',
   sourceKey: 'genreId',
+  foreignKeyConstraint: false,
+  constraints: false,
 });
-
-DB.GenresAssocModel.hasOne(DB.MoviesModel, {
+// @ts-ignore
+DB.GenresAssocModel.hasMany(DB.MoviesModel, {
   as: 'moviesDetails',
   foreignKey: 'id',
   sourceKey: 'movies_series_id',
+  constraints: false,
 });
-
-DB.GenresAssocModel.hasOne(DB.SeriesModel, {
+// @ts-ignore
+DB.GenresAssocModel.hasMany(DB.SeriesModel, {
   as: 'seriesDetails',
   foreignKey: 'id',
   sourceKey: 'movies_series_id',
+  constraints: false,
 });
 
 // category model and assoc model
-
-DB.CategoryAssocModel.hasOne(DB.CategoryModel, {
+// @ts-ignore
+DB.CategoryAssocModel.hasMany(DB.CategoryModel, {
   as: 'categoryDetails',
   foreignKey: 'id',
   sourceKey: 'categoryId',
+  constraints: false,
 });
-
-DB.CategoryAssocModel.hasOne(DB.MoviesModel, {
+// @ts-ignore
+DB.CategoryAssocModel.hasMany(DB.MoviesModel, {
   as: 'moviesDetails',
   sourceKey: 'series_movie_id',
   foreignKey: 'id',
   foreignKeyConstraint: false,
+  constraints: false,
 });
 
 // @ts-ignore
-DB.CategoryAssocModel.hasOne(DB.SeriesModel, {
+DB.CategoryAssocModel.hasMany(DB.SeriesModel, {
   as: 'seriesDetails',
   sourceKey: 'series_movie_id',
   foreignKey: 'id',
+  constraints: false,
 });
+
 export default DB;

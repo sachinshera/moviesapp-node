@@ -20,6 +20,7 @@ export default function (sequelize: Sequelize) {
       movies_series_id: {
         allowNull: false,
         type: DataTypes.STRING(45),
+        unique: false,
       },
       genreId: {
         allowNull: true,
@@ -41,6 +42,7 @@ export default function (sequelize: Sequelize) {
       sequelize,
       createdAt: true,
       updatedAt: true,
+      underscored: true,
     },
   );
 
