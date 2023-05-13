@@ -6,24 +6,14 @@ export default class MoviesBannerService {
   public static async addMovieBanner(movieBanner: any) {
     // check if movie banner already exists
     try {
-      const movieBannerExists = await MoviesBannerModel.findOne({
-        where: {
-          movie_id: movieBanner.movie_id,
-        },
+      const newMovieBanner = await MoviesBannerModel.create({
+        id: nanoid(),
+        ...movieBanner,
       });
-
-      if (movieBannerExists) {
-        throw new Error('Movie banner already exists');
+      if (newMovieBanner) {
+        return newMovieBanner;
       } else {
-        const newMovieBanner = await MoviesBannerModel.create({
-          id: nanoid(),
-          ...movieBanner,
-        });
-        if (newMovieBanner) {
-          return newMovieBanner;
-        } else {
-          throw new Error('Error creating movie banner');
-        }
+        throw new Error('Error creating movie banner');
       }
     } catch (error) {
       console.log('error', error);
@@ -65,7 +55,7 @@ export default class MoviesBannerService {
     try {
       const movieBanner = await MoviesBannerModel.findOne({
         where: {
-          movie_id: movieId,
+          contentId: movieId,
         },
       });
       if (movieBanner) {

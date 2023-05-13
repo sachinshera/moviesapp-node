@@ -62,6 +62,9 @@ export default class MoviesService {
           {
             association: 'trailers',
           },
+          {
+            association: 'banners',
+          },
         ],
       });
       if (movies) {

@@ -10,13 +10,20 @@ export default function (sequelize: Sequelize) {
         primaryKey: true,
         type: DataTypes.STRING(255),
       },
-      movie_id: {
+      contentId: {
         type: DataTypes.STRING(255),
         allowNull: false,
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
-      banner_image: {
+      url: {
         type: DataTypes.TEXT('long'),
         allowNull: false,
+      },
+      quality: {
+        type: DataTypes.STRING(10),
+        allowNull: true,
+        defaultValue: 'HD',
       },
       status: {
         type: DataTypes.ENUM('active', 'inactive'),
@@ -25,7 +32,7 @@ export default function (sequelize: Sequelize) {
       },
     },
     {
-      tableName: 'movies_banner',
+      tableName: 'banners',
       sequelize,
       createdAt: true,
       updatedAt: true,

@@ -93,7 +93,15 @@ export default class SearchService {
         ],
       });
 
-      console.log('movies');
+      // set type to movies and series
+
+      movies.forEach(movie => {
+        movie.setDataValue('type', 'movie');
+      });
+
+      series.forEach(serie => {
+        serie.setDataValue('type', 'series');
+      });
 
       return [...movies, ...series];
     } catch (e) {

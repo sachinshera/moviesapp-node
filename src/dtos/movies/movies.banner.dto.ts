@@ -1,7 +1,14 @@
-import { IsString, IsUrl } from 'class-validator';
+import { IsString, IsUrl, IsOptional } from 'class-validator';
 export class addUpdateMoviesBannerDto {
   @IsString()
-  public movie_id: string;
+  public contentId: string;
   @IsUrl()
-  public banner_image: string;
+  public url: string;
+  @IsOptional()
+  @IsString()
+  public quality: string;
+
+  @IsOptional()
+  @IsString()
+  public status: string;
 }

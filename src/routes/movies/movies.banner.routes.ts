@@ -5,7 +5,7 @@ import validationMiddleware from '@/middlewares/validation.middleware';
 import { Router } from 'express';
 class MoviesBannerRoutes {
   public router: Router = Router();
-  public path = '/movies/banner';
+  public path = '/banner';
   public moviesBannerController = new MoviesBannerController();
   constructor() {
     this.initializeRoutes();

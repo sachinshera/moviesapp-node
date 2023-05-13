@@ -111,11 +111,7 @@ DB.SeriesModel.hasMany(DB.TrailerModel, {
 });
 // @ts-ignore
 // set associations movies , movies banner , video
-DB.MoviesModel.hasMany(DB.MoviesBannerModel, {
-  as: 'banners',
-  foreignKey: 'movie_id',
-  constraints: false,
-});
+
 // @ts-ignore
 //SeriesSeasonVideosModel and VideosModel are same table
 DB.SeriesSeasonVideosModel.hasMany(DB.VideosModel, {
@@ -169,6 +165,20 @@ DB.CategoryAssocModel.hasMany(DB.SeriesModel, {
   as: 'seriesDetails',
   sourceKey: 'series_movie_id',
   foreignKey: 'id',
+  constraints: false,
+});
+
+DB.MoviesModel.hasMany(DB.MoviesBannerModel, {
+  as: 'banners',
+  foreignKey: 'contentId',
+  sourceKey: 'id',
+  constraints: false,
+});
+
+DB.SeriesModel.hasMany(DB.MoviesBannerModel, {
+  as: 'banners',
+  foreignKey: 'contentId',
+  sourceKey: 'id',
   constraints: false,
 });
 

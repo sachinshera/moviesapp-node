@@ -57,6 +57,9 @@ export class SeriesService {
         {
           association: 'trailers',
         },
+        {
+          association: 'banners',
+        },
       ],
     });
     return series;
@@ -92,6 +95,9 @@ export class SeriesService {
         },
         {
           association: 'trailers',
+        },
+        {
+          association: 'banners',
         },
       ],
     });
