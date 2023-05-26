@@ -1,0 +1,637 @@
+2023-05-09 00:18:43 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:43 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:43 error: uncaughtException: relation "genres_assoc" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:44 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:44 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:45 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:18:46 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:20:05 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:20:06 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:20:06 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:20:06 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:20:07 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:20:08 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:34 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:22:36 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:24:17 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:17 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:17 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:17 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:17 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:17 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:24:19 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:25:24 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:24 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:25 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:25 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:25 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:25 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:25:26 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:26:44 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:44 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:44 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:45 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:45 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:45 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:26:47 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:27:29 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:29 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:29 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:29 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:29 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:30 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:31 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:27:40 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:40 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:40 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:40 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:40 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:40 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:27:42 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:36:39 error: uncaughtException: relation "genres_assoc" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:39 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:39 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:40 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:40 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:40 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:36:42 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:38:21 error: uncaughtException: Cannot read properties of undefined (reading 'video_id')
+TypeError: Cannot read properties of undefined (reading 'video_id')
+    at new HasMany (D:\watch+\moviesapp-node\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\watch+\moviesapp-node\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\watch+\moviesapp-node\src\models\videos\videos.model.ts:53:15)
+    at Object.<anonymous> (D:\watch+\moviesapp-node\src\databases\index.ts:47:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-05-09 00:38:22 error: uncaughtException: Cannot read properties of undefined (reading 'video_id')
+TypeError: Cannot read properties of undefined (reading 'video_id')
+    at new HasMany (D:\watch+\moviesapp-node\node_modules\sequelize\src\associations\has-many.js:74:21)
+    at Function.hasMany (D:\watch+\moviesapp-node\node_modules\sequelize\src\associations\mixin.js:34:25)
+    at default_1 (D:\watch+\moviesapp-node\src\models\videos\videos.model.ts:53:15)
+    at Object.<anonymous> (D:\watch+\moviesapp-node\src\databases\index.ts:47:27)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\watch+\moviesapp-node\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-05-09 00:43:20 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:20 error: uncaughtException: relation "genres_assoc" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:20 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:20 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:20 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:20 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:43:22 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:46:14 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:14 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:14 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:14 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:14 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:14 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:46:16 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:47:48 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:48 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:48 error: uncaughtException: relation "series" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:48 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:48 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:48 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:47:50 error: uncaughtException: there is no unique constraint matching given keys for referenced table "genres_assoc"
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:825:9)
+2023-05-09 00:48:58 error: uncaughtException: relation "series_seasons" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:48:58 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)
+2023-05-09 00:48:58 error: uncaughtException: relation "movies" does not exist
+Error
+    at Query.run (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at D:\watch+\moviesapp-node\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (D:\watch+\moviesapp-node\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\watch+\moviesapp-node\node_modules\sequelize\src\model.js:1353:7)

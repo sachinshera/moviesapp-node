@@ -1,0 +1,1 @@
+2023-05-10 20:23:48 error: [POST] /login >> StatusCode:: 400, Message:: property email should not exist, username must be a string

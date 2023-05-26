@@ -1,0 +1,441 @@
+2023-04-25 04:14:10 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\movies app\movieapp-api\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\movies app\movieapp-api\src\app.ts:37:14)
+    at Object.<anonymous> (D:\movies app\movieapp-api\src\server.ts:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\movies app\movieapp-api\node_modules\ts-node\src\index.ts:1621:12)
+2023-04-25 04:14:13 error: uncaughtException: Failed to open the referenced table 'movies'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 04:16:07 error: uncaughtException: Failed to open the referenced table 'movies'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 04:16:07 error: uncaughtException: Failed to open the referenced table 'series'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 04:16:09 error: uncaughtException: Failed to add the foreign key constraint. Missing index for constraint 'videos_ibfk_1' in the referenced table 'movies'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 13:57:59 error: uncaughtException: Failed to add the foreign key constraint. Missing index for constraint 'videos_ibfk_1' in the referenced table 'movies'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 13:57:59 error: uncaughtException: Failed to open the referenced table 'series'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 13:58:01 error: uncaughtException: Failed to add the foreign key constraint. Missing index for constraint 'videos_ibfk_1' in the referenced table 'movies'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:02:38 error: uncaughtException: Failed to open the referenced table 'series_season_videos'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 14:02:38 error: uncaughtException: Failed to open the referenced table 'series'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 14:30:02 error: uncaughtException: Failed to open the referenced table 'series_season_videos'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 14:30:54 error: uncaughtException: Failed to add the foreign key constraint. Missing index for constraint 'videos_ibfk_1' in the referenced table 'series_season_videos'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+2023-04-25 14:30:57 error: uncaughtException: Failed to add the foreign key constraint. Missing index for constraint 'videos_ibfk_1' in the referenced table 'series_season_videos'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:33:29 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 14:33:30 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:33:30 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:35:53 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:35:53 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:35:53 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 14:37:16 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:37:16 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:37:16 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 14:37:27 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:37:27 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 14:37:28 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 17:06:12 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:06:12 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:06:12 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 17:08:02 error: uncaughtException: Duplicate key name 'series_name'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:08:02 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:09:11 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:09:11 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:09:40 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:09:40 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:10:03 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:10:03 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:11:23 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:11:23 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:11:48 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:11:49 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:12:24 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:12:24 error: uncaughtException: BLOB/TEXT column 'description' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:12:47 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-25 17:12:49 error: uncaughtException: Unknown database 'moviesapp'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1408:11)
+2023-04-25 17:12:49 error: uncaughtException: Unknown database 'moviesapp'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.showIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1413:29)
+2023-04-25 17:12:49 error: uncaughtException: Unknown database 'moviesapp'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.showIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:600:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1413:29)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:12:49 error: uncaughtException: Unknown database 'moviesapp'
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1353:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:13:46 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 17:17:52 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 17:18:50 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+    at async Sequelize.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:825:9)
+2023-04-25 17:18:50 error: uncaughtException: BLOB/TEXT column 'title' used in key specification without a key length
+Error
+    at Query.run (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\movies app\movieapp-api\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.addIndex (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\query-interface.js:586:12)
+    at async Function.sync (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:1427:7)
+2023-04-25 17:46:17 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:47:55 error: [POST] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 17:48:07 error: [POST] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 17:48:11 error: [POST] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 17:48:13 error: [POST] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 17:49:35 error: [POST] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 17:50:01 error: [POST] /trailer >> StatusCode:: 400, Message:: movies_series_id must be a string, url must be an URL address, quality must be a string, status must be a string
+2023-04-25 17:50:53 error: [POST] /trailer >> StatusCode:: 400, Message:: url must be an URL address
+2023-04-25 17:51:13 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:52:44 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:53:47 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:54:46 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:56:40 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:57:51 error: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (D:\movies app\movieapp-api\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2023-04-25 17:59:17 error: [GET] /trailer >> StatusCode:: 401, Message:: Wrong authentication token
+2023-04-25 18:29:02 error: [POST] /movies >> StatusCode:: 401, Message:: Wrong authentication token

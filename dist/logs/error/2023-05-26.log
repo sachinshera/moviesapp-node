@@ -1,0 +1,7 @@
+2023-05-26 16:39:53 error: [GET] /series/_oSGVrhoc3y2MxWvzr6J0 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 16:40:04 error: [GET] /series/_oSGVrhoc3y2MxWvzr6J0 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 16:49:46 error: [GET] /series/_oSGVrhoc3y2MxWvzr6J0 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 16:50:12 error: [GET] /series/2 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 16:50:15 error: [GET] /series/1 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 17:24:52 error: [GET] /series/_oSGVrhoc3y2MxWvzr6J0 >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-26 17:47:00 error: [GET] /series/x_mf488JCLn0y_UFCG2q- >> StatusCode:: 401, Message:: Wrong authentication token

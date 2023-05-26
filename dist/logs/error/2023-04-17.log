@@ -1,0 +1,24 @@
+2023-04-17 21:27:29 error: uncaughtException: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-17 21:27:29 error: uncaughtException: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-17 21:39:41 error: uncaughtException: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2023-04-17 21:39:41 error: uncaughtException: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'moviesapp'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\movies app\movieapp-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
