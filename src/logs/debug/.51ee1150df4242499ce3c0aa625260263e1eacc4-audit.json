@@ -39,6 +39,26 @@
             "date": 1683918238380,
             "name": "D:\\watch+\\moviesapp-node\\src\\logs\\debug\\2023-05-13.log",
             "hash": "a15740cebc06c2f0c791b7cb42de46109b2a3c3a1d04d451d7d3bdb7295a153f"
+        },
+        {
+            "date": 1684073725169,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\debug\\2023-05-14.log",
+            "hash": "a7247584608201ba142a323c3458ab7cfddf2cf96025c7f0dc3a716926626e99"
+        },
+        {
+            "date": 1684237644189,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\debug\\2023-05-16.log",
+            "hash": "8f3a938489d9915ae18ded4c70cb45eccf7ec8757a106c47026aba43bc8eccdb"
+        },
+        {
+            "date": 1684323486948,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\debug\\2023-05-17.log",
+            "hash": "b049431a39b51cfd67c9f1b621f563663d19458a9a5ed2daf4d0c16ec13e8808"
+        },
+        {
+            "date": 1685098310037,
+            "name": "D:\\watch+\\moviesapp-node\\src\\logs\\debug\\2023-05-26.log",
+            "hash": "068f87aa3ab1ff6e1e00c3e32e62252f4c63079c536863c29bbfe21c2f8cede7"
         }
     ],
     "hashType": "sha256"

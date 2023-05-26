@@ -4,11 +4,77 @@ import { Op, Sequelize } from 'sequelize';
 
 export default class SearchService {
   static async search(query: string) {
-    console.log('query', query);
+    if (query.length < 3) {
+      // search for all movies and series
+      const movies = await MoviesModel.findAll({
+        include: [
+          {
+            association: 'banners',
+            as: 'banners',
+          },
+          {
+            association: 'videos',
+            as: 'videos',
+            include: [
+              {
+                association: 'sources',
+                as: 'sources',
+              },
+              {
+                association: 'thumbnails',
+                as: 'thumbnails',
+              },
+            ],
+          },
+          {
+            association: 'trailers',
+            as: 'trailers',
+          },
+        ],
+      });
 
-    // find  movies using full text search
+      const series = await SeriesModel.findAll({
+        include: [
+          {
+            association: 'seasons',
+            include: [
+              {
+                association: 'episodes',
+                include: [
+                  {
+                    association: 'episodesDetails',
+                    include: [
+                      {
+                        association: 'sources',
+                      },
+                      {
+                        association: 'thumbnails',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            association: 'trailers',
+          },
+        ],
+      });
+
+      // set type to movies and series
+
+      movies.forEach(movie => {
+        movie.setDataValue('type', 'movie');
+      });
+
+      series.forEach(serie => {
+        serie.setDataValue('type', 'series');
+      });
+
+      return [...movies, ...series];
+    }
     try {
-      var title = query;
       const movies = await MoviesModel.findAll({
         where: {
           [Op.or]: [
